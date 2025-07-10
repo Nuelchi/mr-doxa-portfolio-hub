@@ -242,9 +242,11 @@ const Index = () => {
             with fellow entrepreneurs and engineers.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center mb-8">
-            <Button size="lg" className="bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700">
-              <Mail className="mr-2 h-5 w-5" />
-              Email Me
+            <Button size="lg" className="bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700" asChild>
+              <a href="mailto:your-email@example.com?subject=Let's Work Together&body=Hi Emmanuel, I'd love to discuss...">
+                <Mail className="mr-2 h-5 w-5" />
+                Email Me
+              </a>
             </Button>
             <Button variant="outline" size="lg" asChild>
               <a href="https://github.com/Nuelchi" target="_blank" rel="noopener noreferrer">
