@@ -252,9 +252,11 @@ const Index = () => {
                 GitHub
               </a>
             </Button>
-            <Button variant="outline" size="lg">
-              <Linkedin className="mr-2 h-5 w-5" />
-              LinkedIn
+            <Button variant="outline" size="lg" asChild>
+              <a href="https://linkedin.com/in/mrnuel-a9935b1b1" target="_blank" rel="noopener noreferrer">
+                <Linkedin className="mr-2 h-5 w-5" />
+                LinkedIn
+              </a>
             </Button>
           </div>
           <p className="text-muted-foreground">
