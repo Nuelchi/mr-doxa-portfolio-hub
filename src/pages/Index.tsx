@@ -246,9 +246,11 @@ const Index = () => {
               <Mail className="mr-2 h-5 w-5" />
               Email Me
             </Button>
-            <Button variant="outline" size="lg">
-              <Github className="mr-2 h-5 w-5" />
-              GitHub
+            <Button variant="outline" size="lg" asChild>
+              <a href="https://github.com/Nuelchi" target="_blank" rel="noopener noreferrer">
+                <Github className="mr-2 h-5 w-5" />
+                GitHub
+              </a>
             </Button>
             <Button variant="outline" size="lg">
               <Linkedin className="mr-2 h-5 w-5" />
