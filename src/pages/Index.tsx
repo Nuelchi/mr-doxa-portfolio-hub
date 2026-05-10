@@ -217,10 +217,28 @@ const Index = () => {
             <Card>
               <CardHeader>
                 <div className="flex items-center gap-3">
+                  <Rocket className="h-6 w-6 text-green-500" />
+                  <div>
+                    <CardTitle>Trainflow | Founder, Fullstack & AI Engineer</CardTitle>
+                    <CardDescription>June 2025 – Present · Delaware, US</CardDescription>
+                  </div>
+                </div>
+              </CardHeader>
+              <CardContent>
+                <ul className="list-disc pl-5 text-muted-foreground space-y-1">
+                  <li>Built Trainflow.dev, a Delaware Corp's first product — an AI-powered trading strategy builder with backend logic extraction and real-time code preview, powered by Claude.</li>
+                  <li>Implemented cloud deployment with Render and CI/CD pipelines supporting AI chat flows, file parsing, and multi-agent reasoning.</li>
+                  <li>Led product architecture, user experience, and integration of AI automation.</li>
+                </ul>
+              </CardContent>
+            </Card>
+            <Card>
+              <CardHeader>
+                <div className="flex items-center gap-3">
                   <Briefcase className="h-6 w-6 text-blue-500" />
                   <div>
-                    <CardTitle>Twocents | Founder, Fullstack & AI/Prompt Engineer</CardTitle>
-                    <CardDescription>June 2025 – Present</CardDescription>
+                    <CardTitle>TwoCents | Founder, Fullstack & AI/Prompt Engineer</CardTitle>
+                    <CardDescription>June 2025 – Present · Enugu, Nigeria</CardDescription>
                   </div>
                 </div>
               </CardHeader>
