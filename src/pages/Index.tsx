@@ -4,6 +4,7 @@ import { Moon, Sun, Mail, Github, Linkedin, ExternalLink, Code, Briefcase, Rocke
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
+import profileImg from '@/assets/profile.png';
 
 const Index = () => {
   const [darkMode, setDarkMode] = useState(false);
@@ -112,7 +113,7 @@ const Index = () => {
               <div className="w-64 h-64 bg-gradient-to-br from-blue-500 to-purple-600 rounded-full flex items-center justify-center">
                 <div className="w-60 h-60 bg-background rounded-full flex items-center justify-center overflow-hidden">
                   <img
-                    src="/PHOTO-2025-07-10-09-28-35.jpg"
+                    src={profileImg}
                     alt="Nwafor Emmanuel profile"
                     className="object-cover w-full h-full rounded-full"
                   />
