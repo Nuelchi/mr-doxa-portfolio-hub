@@ -20,14 +20,13 @@ const Index = () => {
     setDarkMode(!darkMode);
   };
 
-  // --- Enhance Skills Section ---
   const skills = {
     Languages: ['JavaScript', 'TypeScript', 'Python', 'Java', 'SQL', 'HTML', 'CSS'],
     Frameworks: ['React.js', 'Node.js', 'Express.js'],
     Tools: ['AI & Prompt Engineering', 'Git', 'GitHub', 'CI/CD Pipelines'],
-    Databases: ['MySQL', 'MongoDB'],
-    Cloud_DevOps: ['Azure', 'Netlify', 'Vercel'],
-    OS: ['Linux', 'Windows', 'Unix'],
+    Databases: ['MySQL', 'MongoDB', 'Supabase'],
+    Cloud_DevOps: ['Azure', 'Netlify', 'Vercel', 'Render'],
+    OS: ['Linux', 'Windows'],
   };
 
   const scrollToSection = (sectionId: string) => {
@@ -64,10 +63,10 @@ const Index = () => {
             Emmanuel Nwafor
           </h1>
           <p className="text-xl md:text-2xl text-muted-foreground mb-4">
-            Startup Founder & Backend Engineer
+            Fullstack Developer | AI & Prompt Engineer
           </p>
           <p className="text-lg text-muted-foreground mb-8 max-w-2xl mx-auto">
-            Building the future of fintech and AI-powered tools. Passionate about solving real human problems through innovative technology.
+            Founder of Trainflow (Delaware, US) and TwoCents. Building AI-powered tools for trading, fintech, and real human problems.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button onClick={() => scrollToSection('projects')} size="lg" className="bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700">
@@ -88,10 +87,10 @@ const Index = () => {
             <div>
               <h3 className="text-2xl font-semibold mb-4">Hey there! 👋</h3>
               <p className="text-muted-foreground mb-4">
-                I'm Emmanuel, but you can call me <strong>Mr. Doxa</strong>. I'm a backend and fullstack engineer passionate about building scalable, AI-powered solutions that solve real-world problems.
+                I'm Emmanuel, but you can call me <strong>Mr. Doxa</strong>. I'm a fullstack developer and AI/prompt engineer building scalable, AI-powered products that solve real-world problems.
               </p>
               <p className="text-muted-foreground mb-4">
-                Currently, I'm the founder of <strong>TwoCents</strong>, an AI-powered expense tracker for couples, and have contributed to fintech and edtech projects like <strong>TradersEdge</strong> and <strong>Learnx LMS</strong>.
+                I'm the founder of <strong>Trainflow</strong> (Delaware, US) — an AI-powered trading strategy builder — and <strong>TwoCents</strong>, an AI-powered expense tracker for couples. I've also contributed to fintech and edtech projects like <strong>TradersEdge</strong> and <strong>Learnx LMS</strong>.
               </p>
               <p className="text-muted-foreground mb-6">
                 My journey includes intensive training at Genesys Tech Hub and hands-on experience in backend, frontend, and AI engineering. I thrive on collaboration, innovation, and continuous learning.
@@ -128,7 +127,34 @@ const Index = () => {
       <section id="projects" className="py-20 px-6">
         <div className="container mx-auto">
           <h2 className="text-3xl md:text-4xl font-bold text-center mb-12">What I'm Building Now</h2>
-          <div className="grid md:grid-cols-2 gap-8">
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <Card className="group hover:shadow-lg transition-all duration-300 border-2 hover:border-green-500/50">
+              <CardHeader>
+                <div className="flex items-center justify-between">
+                  <CardTitle className="text-xl">Trainflow</CardTitle>
+                  <a href="https://trainflow.dev" target="_blank" rel="noopener noreferrer">
+                    <ExternalLink className="h-5 w-5 group-hover:text-green-500 transition-colors" />
+                  </a>
+                </div>
+                <CardDescription>AI-Powered Trading Strategy Builder (Delaware Corp)</CardDescription>
+              </CardHeader>
+              <CardContent>
+                <p className="text-muted-foreground mb-4">
+                  Trainflow.dev is our flagship product — an AI-powered trading strategy builder with backend logic extraction and real-time code preview, powered by Claude. Supports AI chat flows, file parsing, and multi-agent reasoning.
+                </p>
+                <div className="flex flex-wrap gap-2 mb-4">
+                  <Badge variant="outline">AI/ML</Badge>
+                  <Badge variant="outline">Claude</Badge>
+                  <Badge variant="outline">Multi-Agent</Badge>
+                  <Badge variant="outline">CI/CD</Badge>
+                </div>
+                <Button variant="outline" className="w-full" asChild>
+                  <a href="https://trainflow.dev" target="_blank" rel="noopener noreferrer">
+                    Visit trainflow.dev <ExternalLink className="ml-2 h-4 w-4" />
+                  </a>
+                </Button>
+              </CardContent>
+            </Card>
             <Card className="group hover:shadow-lg transition-all duration-300 border-2 hover:border-blue-500/50">
               <CardHeader>
                 <div className="flex items-center justify-between">
@@ -191,10 +217,28 @@ const Index = () => {
             <Card>
               <CardHeader>
                 <div className="flex items-center gap-3">
+                  <Rocket className="h-6 w-6 text-green-500" />
+                  <div>
+                    <CardTitle>Trainflow | Founder, Fullstack & AI Engineer</CardTitle>
+                    <CardDescription>June 2025 – Present · Delaware, US</CardDescription>
+                  </div>
+                </div>
+              </CardHeader>
+              <CardContent>
+                <ul className="list-disc pl-5 text-muted-foreground space-y-1">
+                  <li>Built Trainflow.dev, a Delaware Corp's first product — an AI-powered trading strategy builder with backend logic extraction and real-time code preview, powered by Claude.</li>
+                  <li>Implemented cloud deployment with Render and CI/CD pipelines supporting AI chat flows, file parsing, and multi-agent reasoning.</li>
+                  <li>Led product architecture, user experience, and integration of AI automation.</li>
+                </ul>
+              </CardContent>
+            </Card>
+            <Card>
+              <CardHeader>
+                <div className="flex items-center gap-3">
                   <Briefcase className="h-6 w-6 text-blue-500" />
                   <div>
-                    <CardTitle>Twocents | Founder, Fullstack & AI/Prompt Engineer</CardTitle>
-                    <CardDescription>June 2025 – Present</CardDescription>
+                    <CardTitle>TwoCents | Founder, Fullstack & AI/Prompt Engineer</CardTitle>
+                    <CardDescription>June 2025 – Present · Enugu, Nigeria</CardDescription>
                   </div>
                 </div>
               </CardHeader>
@@ -291,7 +335,7 @@ const Index = () => {
                   <GraduationCap className="h-6 w-6 text-blue-500" />
                   <div>
                     <CardTitle>University of Nigeria, Nsukka</CardTitle>
-                    <CardDescription>B.Sc. Computer Science | Sept 2021 – Sept 2025</CardDescription>
+                    <CardDescription>B.Sc. Computer Science | Sept 2021 – Nov 2025</CardDescription>
                   </div>
                 </div>
               </CardHeader>
