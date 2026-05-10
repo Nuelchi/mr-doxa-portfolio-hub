@@ -20,14 +20,13 @@ const Index = () => {
     setDarkMode(!darkMode);
   };
 
-  // --- Enhance Skills Section ---
   const skills = {
     Languages: ['JavaScript', 'TypeScript', 'Python', 'Java', 'SQL', 'HTML', 'CSS'],
     Frameworks: ['React.js', 'Node.js', 'Express.js'],
     Tools: ['AI & Prompt Engineering', 'Git', 'GitHub', 'CI/CD Pipelines'],
-    Databases: ['MySQL', 'MongoDB'],
-    Cloud_DevOps: ['Azure', 'Netlify', 'Vercel'],
-    OS: ['Linux', 'Windows', 'Unix'],
+    Databases: ['MySQL', 'MongoDB', 'Supabase'],
+    Cloud_DevOps: ['Azure', 'Netlify', 'Vercel', 'Render'],
+    OS: ['Linux', 'Windows'],
   };
 
   const scrollToSection = (sectionId: string) => {
