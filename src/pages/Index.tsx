@@ -87,10 +87,10 @@ const Index = () => {
             <div>
               <h3 className="text-2xl font-semibold mb-4">Hey there! 👋</h3>
               <p className="text-muted-foreground mb-4">
-                I'm Emmanuel, but you can call me <strong>Mr. Doxa</strong>. I'm a backend and fullstack engineer passionate about building scalable, AI-powered solutions that solve real-world problems.
+                I'm Emmanuel, but you can call me <strong>Mr. Doxa</strong>. I'm a fullstack developer and AI/prompt engineer building scalable, AI-powered products that solve real-world problems.
               </p>
               <p className="text-muted-foreground mb-4">
-                Currently, I'm the founder of <strong>TwoCents</strong>, an AI-powered expense tracker for couples, and have contributed to fintech and edtech projects like <strong>TradersEdge</strong> and <strong>Learnx LMS</strong>.
+                I'm the founder of <strong>Trainflow</strong> (Delaware, US) — an AI-powered trading strategy builder — and <strong>TwoCents</strong>, an AI-powered expense tracker for couples. I've also contributed to fintech and edtech projects like <strong>TradersEdge</strong> and <strong>Learnx LMS</strong>.
               </p>
               <p className="text-muted-foreground mb-6">
                 My journey includes intensive training at Genesys Tech Hub and hands-on experience in backend, frontend, and AI engineering. I thrive on collaboration, innovation, and continuous learning.
