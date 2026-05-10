@@ -110,8 +110,8 @@ const Index = () => {
               </div>
             </div>
             <div className="flex justify-center">
-              <div className="w-64 h-64 bg-gradient-to-br from-blue-500 to-purple-600 rounded-full flex items-center justify-center">
-                <div className="w-60 h-60 bg-background rounded-full flex items-center justify-center overflow-hidden">
+              <div className="w-80 h-80 bg-gradient-to-br from-blue-500 to-purple-600 rounded-full flex items-center justify-center p-2">
+                <div className="w-full h-full bg-background rounded-full flex items-center justify-center overflow-hidden">
                   <img
                     src={profileImg}
                     alt="Nwafor Emmanuel profile"
