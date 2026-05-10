@@ -186,7 +186,9 @@ const Index = () => {
               <CardHeader>
                 <div className="flex items-center justify-between">
                   <CardTitle className="text-xl">TradersEdge</CardTitle>
-                  <Code className="h-5 w-5 group-hover:text-purple-500 transition-colors" />
+                  <a href="https://traders-edge.lovable.app" target="_blank" rel="noopener noreferrer">
+                    <ExternalLink className="h-5 w-5 group-hover:text-purple-500 transition-colors" />
+                  </a>
                 </div>
                 <CardDescription>Smart Tools for Next-Gen Forex Traders</CardDescription>
               </CardHeader>
@@ -200,8 +202,10 @@ const Index = () => {
                   <Badge variant="outline">Express.js</Badge>
                   <Badge variant="outline">MySQL</Badge>
                 </div>
-                <Button variant="outline" className="w-full">
-                  Coming Soon <Rocket className="ml-2 h-4 w-4" />
+                <Button variant="outline" className="w-full" asChild>
+                  <a href="https://traders-edge.lovable.app" target="_blank" rel="noopener noreferrer">
+                    Visit TradersEdge <ExternalLink className="ml-2 h-4 w-4" />
+                  </a>
                 </Button>
               </CardContent>
             </Card>
