@@ -335,7 +335,7 @@ const Index = () => {
                   <GraduationCap className="h-6 w-6 text-blue-500" />
                   <div>
                     <CardTitle>University of Nigeria, Nsukka</CardTitle>
-                    <CardDescription>B.Sc. Computer Science | Sept 2021 – Sept 2025</CardDescription>
+                    <CardDescription>B.Sc. Computer Science | Sept 2021 – Nov 2025</CardDescription>
                   </div>
                 </div>
               </CardHeader>
