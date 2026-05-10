@@ -63,10 +63,10 @@ const Index = () => {
             Emmanuel Nwafor
           </h1>
           <p className="text-xl md:text-2xl text-muted-foreground mb-4">
-            Startup Founder & Backend Engineer
+            Fullstack Developer | AI & Prompt Engineer
           </p>
           <p className="text-lg text-muted-foreground mb-8 max-w-2xl mx-auto">
-            Building the future of fintech and AI-powered tools. Passionate about solving real human problems through innovative technology.
+            Founder of Trainflow (Delaware, US) and TwoCents. Building AI-powered tools for trading, fintech, and real human problems.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button onClick={() => scrollToSection('projects')} size="lg" className="bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700">
