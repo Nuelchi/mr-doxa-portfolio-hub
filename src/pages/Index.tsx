@@ -127,7 +127,34 @@ const Index = () => {
       <section id="projects" className="py-20 px-6">
         <div className="container mx-auto">
           <h2 className="text-3xl md:text-4xl font-bold text-center mb-12">What I'm Building Now</h2>
-          <div className="grid md:grid-cols-2 gap-8">
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <Card className="group hover:shadow-lg transition-all duration-300 border-2 hover:border-green-500/50">
+              <CardHeader>
+                <div className="flex items-center justify-between">
+                  <CardTitle className="text-xl">Trainflow</CardTitle>
+                  <a href="https://trainflow.dev" target="_blank" rel="noopener noreferrer">
+                    <ExternalLink className="h-5 w-5 group-hover:text-green-500 transition-colors" />
+                  </a>
+                </div>
+                <CardDescription>AI-Powered Trading Strategy Builder (Delaware Corp)</CardDescription>
+              </CardHeader>
+              <CardContent>
+                <p className="text-muted-foreground mb-4">
+                  Trainflow.dev is our flagship product — an AI-powered trading strategy builder with backend logic extraction and real-time code preview, powered by Claude. Supports AI chat flows, file parsing, and multi-agent reasoning.
+                </p>
+                <div className="flex flex-wrap gap-2 mb-4">
+                  <Badge variant="outline">AI/ML</Badge>
+                  <Badge variant="outline">Claude</Badge>
+                  <Badge variant="outline">Multi-Agent</Badge>
+                  <Badge variant="outline">CI/CD</Badge>
+                </div>
+                <Button variant="outline" className="w-full" asChild>
+                  <a href="https://trainflow.dev" target="_blank" rel="noopener noreferrer">
+                    Visit trainflow.dev <ExternalLink className="ml-2 h-4 w-4" />
+                  </a>
+                </Button>
+              </CardContent>
+            </Card>
             <Card className="group hover:shadow-lg transition-all duration-300 border-2 hover:border-blue-500/50">
               <CardHeader>
                 <div className="flex items-center justify-between">
